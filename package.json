@@ -1,9 +1,9 @@
 {
   "name": "react-event-stop-decorator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Decorator stopping event propagation in React class component",
-  "main": "./lib/main.js",
-  "types": "./lib/main.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "test",
     "build": "tsc -p ./"
@@ -14,5 +14,8 @@
     "@types/react": "^16.9.2",
     "react": "^16.9.0",
     "typescript": "^3.5.3"
-  }
+  },
+  "files": [
+    "lib"
+  ]
 }
