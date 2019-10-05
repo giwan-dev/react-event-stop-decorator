@@ -4,18 +4,18 @@
   "description": "Decorator stopping event propagation in React class component",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "repository": "https://github.com/zprime0920/react-event-stop-decorator",
   "scripts": {
     "test": "test",
     "build": "tsc -p ./"
   },
   "author": "박기완",
   "license": "ISC",
-  "dependencies": {
-    "@types/react": "^16.9.2",
-    "react": "^16.9.0",
-    "typescript": "^3.5.3"
-  },
   "files": [
     "lib"
-  ]
+  ],
+  "dependencies": {
+    "@types/react": "^16.9.2",
+    "typescript": "^3.6.3"
+  }
 }
